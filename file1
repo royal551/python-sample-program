@@ -1,0 +1,32 @@
+i# Sample Python Program
+
+# Function to greet a user
+def greet_user(name):
+    return f"Hello, {name}!"
+
+# Function to calculate the sum of a list of numbers
+def calculate_sum(numbers):
+    return sum(numbers)
+
+# Main program
+if __name__ == "__main__":
+    # Variable initialization
+    user_name = input("Enter your name: ")
+    
+    # Greet the user
+    greeting = greet_user(user_name)
+    print(greeting)
+
+    # Create a list of numbers
+    numbers_list = [10, 20, 30, 40, 50]
+    print(f"The list of numbers: {numbers_list}")
+    
+    # Calculate the sum of numbers
+    total = calculate_sum(numbers_list)
+    print(f"The sum of the numbers is: {total}")
+    
+    # Loop example: print each number in the list
+    print("Each number in the list:")
+    for number in numbers_list:
+        print(number)
+
